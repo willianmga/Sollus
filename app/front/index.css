@@ -1,0 +1,46 @@
+
+/*DRAWER BEGIN*/
+hr{
+	margin: 0px;
+}
+
+.mdl-navigation__link{
+	padding: 0px 0px 0px 0px !important;
+}
+
+.mdl-layout__drawer-button{
+	display: flex;
+}
+
+.mdl-layout__drawer-button .material-icons{
+	margin: auto;
+}
+
+.user-drawer-header{
+	height: 150px;
+	width: calc(100% + 1);
+	background-color: #F44336;
+}
+
+.mdl-layout__drawer .mdl-navigation{
+	padding-top: 0px;
+}
+
+.mdl-layout__drawer .mdl-navigation .mdl-list{
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+/*DRAWER END*/
+
+/*MEDICO LIST BEGIN*/
+
+.page-organizer{
+	display: flex;
+	flex-direction: column;
+}
+
+.card-page{
+	width: calc(100% - 20px);
+	margin: 10px auto 30px auto;
+}
